@@ -254,7 +254,8 @@ a:hover {
 .ico-circle {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  align-content: center;
+  /* border-bottom: 1px dotted black; */
 }
 
 .ico-circle .tooltiptext {
@@ -476,7 +477,7 @@ a:hover {
 }
 
 .button-big {
-  padding: .9rem 2.3rem;
+  padding: .5rem 2.3rem;
   font-size: 1.2rem;
 }
 
@@ -774,7 +775,7 @@ a:hover {
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0px;
